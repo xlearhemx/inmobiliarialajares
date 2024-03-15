@@ -1,0 +1,136 @@
+:root {
+    --main-color: #b9b9b9;
+    --dark: #000;
+    --light: #e0e0e0;
+}
+
+body {
+    background-color: var(--light);
+    font-family: 'Cabinet Grotesk', sans-serif;
+}
+
+/*NAVBAR*/
+#navbar {
+    background-color: var(--light);
+    margin-bottom: -2%;
+}
+
+.navbar img {
+    width: 20%;
+    height: auto;
+    filter: drop-shadow(0 0 0.2em var(--dark));
+    transition: 0.5s;
+}
+
+.navbar img:hover {
+    filter: drop-shadow(0 0 0.2em var(--dark)) contrast(150%);
+}
+
+.navbar input {
+    width: 15em;
+    border: 1px solid #000;
+}
+
+.navbar-brand img {
+    margin-right: 2%;
+}
+
+/*GRID*/
+.row {
+    margin-bottom: 2%;
+}
+
+/*CARDS*/
+#content {
+    margin-bottom: 5%;
+}
+
+#content h2 {
+    background-color: rgb(209, 209, 209);
+    margin: 2% 0 5% 0;
+    padding: 2%;
+    transition: 0.5s;
+}
+
+#content h2:hover {
+    background-color: rgb(190, 190, 190);
+}
+
+.card-body h5 {
+    margin-bottom: 5%;
+}
+
+.card-body p {
+    line-height: 0.5em;
+}
+
+.card-body .btn {
+    background-color: #000;
+    border: 1px solid #000;
+}
+
+.card-body .btn:hover {
+    background-color: #5e5e5e;
+    border: 1px solid #5e5e5e;
+}
+
+/*FOOTER*/
+footer {
+    background-color: rgb(0, 0, 0, 0.1);
+    padding: 5% 0 5% 0;
+    margin-bottom: -5%;
+}
+
+footer img {
+    width: 40%;
+    height: auto;
+    filter: drop-shadow(0 0 0.2em var(--dark));
+    transition: 0.5s;
+}
+
+footer img:hover {
+    filter: drop-shadow(0 0 0.2em var(--dark)) contrast(150%);
+}
+
+footer a {
+    line-height: 50%;
+}
+
+.nav-link {
+    color: var(--dark);
+    transition: 0.5s;
+}
+
+.nav-link:hover {
+    color: #616161;
+}
+
+.active {
+    text-decoration: 1px underline wavy var(--dark);
+}
+
+footer p {
+    font-size: small;
+}
+
+/*FLECHAS*/
+.flechas {
+    margin-left: 97%;
+    margin-bottom: 1%;
+}
+
+#backtop {
+    color: #000;
+    text-decoration: none;
+    border: 1px solid #000;
+    border-radius: 50%;
+    padding: 10% 10% 4% 10%;
+}
+
+#tobot {
+    color: #000;
+    text-decoration: none;
+    border: 1px solid #000;
+    border-radius: 50%;
+    padding: 4% 10% 10% 10%;
+}

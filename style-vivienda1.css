@@ -1,0 +1,121 @@
+:root {
+    --main-color: #b9b9b9;
+    --dark: #000;
+    --light: #e0e0e0;
+}
+
+body {
+    background-color: var(--light);
+    font-family: 'Cabinet Grotesk', sans-serif;
+}
+
+/*NAVBAR*/
+#navbar {
+    background-color: var(--light);
+    margin-bottom: -2%;
+}
+
+.navbar input {
+    width: 15em;
+    border: 1px solid #000;
+}
+
+.navbar img {
+    width: 20%;
+    height: auto;
+    filter: drop-shadow(0 0 0.2em var(--dark));
+    transition: 0.5s;
+}
+
+.navbar img:hover {
+    filter: drop-shadow(0 0 0.2em var(--dark)) contrast(150%);
+}
+
+.navbar-brand img {
+    margin-right: 2%;
+}
+
+/*CAROUSEL*/
+.carousel {
+    margin-top: 5%;
+}
+
+/*CONTENIDO*/
+.col-content h6 {
+    font-size: small;
+}
+
+#content {
+    margin: 5% 0 5% 0;
+}
+
+/*CARACTERÍSTICAS*/
+#caracteristicas span {
+    border-radius: 15%;
+}   
+
+#consumo {
+    margin-top:-10%;
+}
+
+#consumo h6 {
+    font-size: small;
+    font-style: italic;
+}
+
+/*FOOTER*/
+footer {
+    background-color: rgb(0, 0, 0, 0.1);
+    padding: 5% 0 5% 0;
+    margin-bottom: -5%;
+}
+
+footer img {
+    width: 40%;
+    height: auto;
+    filter: drop-shadow(0 0 0.2em var(--dark));
+    transition: 0.5s;
+}
+
+footer img:hover {
+    filter: drop-shadow(0 0 0.2em var(--dark)) contrast(150%);
+}
+
+footer a {
+    line-height: 50%;
+}
+
+.nav-link {
+    color: var(--dark);
+    transition: 0.5s;
+}
+
+.nav-link:hover {
+    color: #616161;
+}
+
+footer p {
+    font-size: small;
+}
+
+/*FLECHAS*/
+.flechas {
+    margin-left: 97%;
+    margin-bottom: 1%;
+}
+
+#backtop {
+    color: #000;
+    text-decoration: none;
+    border: 1px solid #000;
+    border-radius: 50%;
+    padding: 10% 10% 4% 10%;
+}
+
+#tobot {
+    color: #000;
+    text-decoration: none;
+    border: 1px solid #000;
+    border-radius: 50%;
+    padding: 4% 10% 10% 10%;
+}
